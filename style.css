@@ -1,0 +1,41 @@
+.header{
+    background-color: black;
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.products{
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1em;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img{
+    display: block;
+    width: 100%;
+}
+
+.item__img{
+    
+}
+
+.item__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item__artist{
+    
+    
+}
+
